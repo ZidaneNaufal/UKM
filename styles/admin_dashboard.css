@@ -1,0 +1,242 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f7f9fc;
+  margin: 0;
+  padding: 20px;
+}
+
+.header {
+  background-color: #4d79ff;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+nav {
+  text-align: right;
+}
+
+.logout-button {
+  background-color: #ff6f3c;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logout-button:hover {
+  background-color: #ff914d;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+h2 {
+  text-align: center;
+  color: #4d79ff;
+}
+
+.add-button {
+  display: inline-block;
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #ff914d;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.edit-button,
+.delete-button,
+.approve-button,
+.reject-button {
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+}
+
+.edit-button {
+  background-color: #4d79ff;
+}
+
+.edit-button:hover {
+  background-color: #3c5ccd;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+.approve-button {
+  background-color: #28a745;
+}
+
+.approve-button:hover {
+  background-color: #218838;
+}
+
+.reject-button {
+  background-color: #dc3545;
+}
+
+.reject-button:hover {
+  background-color: #c82333;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px;
+  background-color: #fff5e4;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+input[type="file"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+textarea {
+  height: 80px;
+}
+
+input[type="file"] {
+  padding: 10px;
+}
+
+button {
+  background-color: #4d79ff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #3c5ccd;
+}
+
+textarea[name="visi"],
+textarea[name="misi"],
+textarea[name="prestasi"],
+textarea[name="jadwal_latihan"] {
+  height: 100px;
+}
+
+.approve-button {
+  background-color: #28a745;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.approve-button:hover {
+  background-color: #218838;
+}
+
+.reject-button {
+  background-color: #dc3545;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.reject-button:hover {
+  background-color: #c82333;
+}
+
+.approve-button {
+  background-color: #28a745;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.approve-button:hover {
+  background-color: #218838;
+}
+
+.reject-button {
+  background-color: #dc3545;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.reject-button:hover {
+  background-color: #c82333;
+}
+
